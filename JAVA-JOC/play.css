@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+
+button {
+    background-color: grey;
+    color: black;
+    padding: 10px;
+    border-radius:3px;
+    margin-left: 600px;
+    margin-right:500px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#bucatar {
+    width: 300px;
+    margin-left:550px;
+    margin-top: 90px;
+    
+}
+.mesaj1 {text-align: center;
+      color: white;
+      font-size: 50px;
+    }
+span 
+{
+    opacity: 0;
+    transition: all 0.8s ease;
+    transform: translateY(50px);
+    display:inline-block;
+
+}
+span.tranzitie
+{
+    opacity:1;
+    transform: translateY(0px);
+}
